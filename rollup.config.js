@@ -7,7 +7,7 @@ export default {
   entry: 'src/index.js',
   targets: [
     { dest: 'dist/sav-vuex.cjs.js', format: 'cjs' },
-    { dest: 'dist/sav-vuex.es.js', format: 'es' }
+    { dest: 'dist/sav-vuex.es.js', format: 'es' },
   ],
   plugins: [
     buble()
